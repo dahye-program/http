@@ -1,3 +1,4 @@
+# 서버!
 from http.server import BaseHTTPRequestHandler, HTTPServer 
 import logging
 
@@ -30,3 +31,4 @@ def run(server_class=HTTPServer, handler_class=MyHandler, port=8080):
 
 if __name__ == '__main__':  
   run()
+# 이건 서버야. 알겠어?
